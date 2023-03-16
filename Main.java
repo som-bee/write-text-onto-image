@@ -4,14 +4,16 @@ import java.util.HashMap;
 public class Main{
     public static void main(String[] args) {
 
-        HashMap<String, HashMap<String, Integer>> sectionCoordinates = new HashMap<String, HashMap<String, Integer>>();
+        HashMap<String, HashMap<String, HashMap<String, Integer>>> sectionCoordinates = new HashMap<String, HashMap<String, HashMap<String, Integer>>>();
+        HashMap<String, String > chequeData = new HashMap<String, String>();
 
+        
       
       
-        File coverImg = new File("cover-img/cover-1024.png");
+        File coverImg = new File("cover-img/hdfc.png");
 
 
-
+        
 
 
         System.out.println("TESTING");
